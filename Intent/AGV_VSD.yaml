@@ -1,0 +1,79 @@
+---
+name: "5GEVE_Robot_control_and_automation"
+description: "5G EVE blueprint for Robot control and automation using LTE/5G Network "
+version: "1.0"
+identity: "7588BD52-BA69-4BD2-9572-277C0A4C418F"
+parameters:
+- id: "no_of_robots"
+  name: "number_of_robots"
+  is-required: "true"
+  type: "integer"
+  description: "Number of robots to be used in the experiment"
+  field: "SLA/number_of_robots"
+  no-of-robots: 5
+- id: "no_of_ctrl_servers"
+  name: "number_of_controller_servers"
+  is-required: "true"
+  type: "integer"
+  description: "Number of VNF instances to be used for the Controller"
+  field: "service_constraints/no_of_controller_servers"
+  no-of-controller-servers: null
+- id: "loc_of_factory"
+  name: "location_of_factory"
+  is-required: "true"
+  type: "point"
+  description: "Location of the factory as a WGS84 Longitude and Latitude"
+  field: "service_constraints/location_of_factory"
+  coordinates: []
+- id: "loc_of_ctrl_servers"
+  name: "location_of_controller_servers"
+  is-required: "true"
+  type: "point"
+  description: "Location of the controller servers as a WGS84 Longitude and Latitude"
+  field: "service_constraints/location_of_controller_servers"
+  coordinates: []
+- id: "img_robot_ctrl"
+  name: "image_of_robot_controller"
+  is-required: "true"
+  field: "atomic-functional-components/Controller"
+  image-id: null
+  image-path-url: null
+- id: "lat_factory_ctrl_link"
+  name: "latency_of_factory_to_controller_link"
+  is-required: "false"
+  type: "float"
+  description: "This parameter represents the maximum allowed round-trip delay between\
+    \ the robots and the controller nodes "
+  field:
+  - "SLA/lat_of_SapVsRAN_CpCtrlRAN_link"
+  - "SLA/cap_of_SapVsRAN_CpCtrlRAN_link"
+  lat_factory_ctrl_link: null
+- id: "avg_data_rate"
+  name: "Average_data_rate_per_robot"
+  is-required: "false"
+  type: "float"
+  description: "This parameter represents the average data rate per robot as defined\
+    \ by the Vertical"
+  field:
+  - "SLA/lat_of_SapVsRAN_CpCtrlRAN_link"
+  - "SLA/cap_of_SapVsRAN_CpCtrlRAN_link"
+  avg-data-rate: null
+- id: "service_priority"
+  name: "service_priority"
+  is-required: "false"
+  type: "point"
+  description: "Service Priority as defined by the Vertical"
+  field:
+  - "SLA/service_availability"
+  - "SLA/service_reliability"
+  level: null
+- id: "service_security"
+  name: "service_security"
+  is-required: "false"
+  type: "point"
+  description: "Service security in terms of Network Slice Isolation"
+  field:
+  - "SLA/service_availability"
+  - "SLA/service_reliability"
+  - "service-constraints/security"
+  level: null

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-buffer-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-buffer-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-build-22.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-build-22-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-http2-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-http2-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-http-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-http-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-memcache-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-memcache-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-redis-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-redis-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-socks-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-socks-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-stomp-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-codec-stomp-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-common-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-common-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-example-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-example-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-handler-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-handler-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-handler-proxy-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-handler-proxy-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-resolver-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-resolver-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-tcnative-2.0.20.Final-osx-x86_64.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-tcnative-2.0.20.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-native-epoll-4.1.33.Final-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-native-epoll-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-native-kqueue-4.1.33.Final-osx-x86_64.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-native-kqueue-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-native-unix-common-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-native-unix-common-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-rxtx-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-rxtx-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-sctp-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-sctp-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-udt-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/netty-transport-udt-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/all-in-one/netty-all-4.1.33.Final.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/netty-4.1.33.Final/jar/all-in-one/netty-all-4.1.33.Final-sources.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/fluent-hc-4.5.7.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/httpclient-4.5.7.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/httpclient-cache-4.5.7.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/httpclient-osgi-4.5.7.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/httpclient-win-4.5.7.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/httpcore-4.4.11.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/httpmime-4.5.7.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/jna-4.5.2.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/httpcomponents-client-4.5.7/lib/jna-platform-4.5.2.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/servlet-api.jar"/>
+	<classpathentry kind="lib" path="G:/wings_backup/eclipse-workspace/jackson-core-jackson-core-2.9.9.zip"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
