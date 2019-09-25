@@ -3,7 +3,7 @@ Code to support the 5g-EVE intent-based interface tool
 
 This project is a Maven project.
 
-In order to install the intent-based interface tool you have to import it to your project and also import the librariies in the Necessary Libraries folder.
+In order to install the intent-based interface tool you have to import it to your project and also import the librariies in the Necessary Libraries folder. Also uncomment the dependencies in the pom.xml file.
 
 In this project Tomcat 7.0 Server is used.
 
