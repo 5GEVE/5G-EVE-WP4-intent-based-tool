@@ -53,7 +53,7 @@
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
-        
+        <!--
         <dependency>
     		<groupId>org.apache.httpcomponents</groupId>
    		 	<artifactId>httpclient</artifactId>
@@ -89,7 +89,7 @@
         	<artifactId>commons-lang3</artifactId>
         	<version>3.4</version>
     	</dependency>
-    	
+    	-->
     </dependencies>
 
     <properties>
